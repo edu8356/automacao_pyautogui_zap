@@ -30,8 +30,6 @@ pg.press('enter')
 time.sleep(10)
 
 
-# Clicar no botão para escrever o email
-
 pg.press('f3')
 time.sleep(2)
 pg.write('visualizacoes')
@@ -69,20 +67,3 @@ for item in contatos:
     time.sleep(3)
 pg.hotkey('ctrl','w')
 
-
-
-
-
-
-
-
-
-
-
-
-
-# preencher os campos necessários (destinatário, assunto, mensagem)
-# pg.write('whatsapp.com/')
-# time.sleep(1)
-# pg.press(['Vinicius Programador']) # Outra maneira de passar mais de uma tecla é usando o [] (colchetes) dentro do comando "press"
-# pg.write('youtube.com/watch?v=FhM-rXPALL8')
